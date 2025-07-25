@@ -1,0 +1,9 @@
+[package]
+name = "Siri"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusqlite = { version = "0.31.0", features = ["bundled"] }
+rpassword = "7.3"
+argon2 = { version = "0.5.3", features = ["std"] }
