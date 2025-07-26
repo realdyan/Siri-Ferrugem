@@ -8,6 +8,7 @@ use argon2::{
 };
 use std::io::{self, Write};
 use rpassword::read_password;
+use rpassword::read _password;
 
 const DB_FILE: &str = "users.db";
 
